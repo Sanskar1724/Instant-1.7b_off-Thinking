@@ -4,7 +4,7 @@ Making [LiquidAI/LFM3-1.7B](https://huggingface.co/LiquidAI/LFM3-1.7B) fast **wi
 
 LFM3-1.7B is a very strong small model, but it thinks by default, and that costs many tokens on phones and laptops, exactly where a 1.7B model is meant to run. Thinking can be switched off (`enable_thinking=False`), but no one has published how much quality that loses. This project:
 
-1. **Measures it.** An honest thinking-ON vs thinking-OFF baseline on HumanEval+, MBPP+, GSM8K and IFEval (accuracy, tokens, truncation, leaked thinking, speed).
+1. **Measures it.** An honest thinking-ON vs thinking-OFF baseline on HumanEval+, MBPP+, LiveCodeBench v6, GSM8K, IFEval, IFBench and BFCL tool calling (accuracy, tokens, truncation, leaked thinking, speed).
 2. **Fixes it** (next). Fine-tunes the model on its own verified answers so it answers directly, with fewer tokens, and checks the result at Q4 GGUF too.
 
 > Status: evaluation harness done and tested; baseline run on Kaggle in progress. No results yet.
