@@ -19,7 +19,8 @@ lfm3_instant/
   run_eval.py     CLI: runs both modes, caches generations, writes summary.md / summary.json
 tests/            parsing unit tests + end-to-end runs with a mock model
 notebooks/
-  kaggle_baseline.ipynb   self-contained notebook for a free Kaggle T4 GPU
+  LFM3_Thinking_ON_vs_OFF.ipynb   Experiment 1: the full ON vs OFF study in one readable Kaggle notebook
+  kaggle_baseline.ipynb           earlier vLLM-based version
 ```
 
 ## Quick start
@@ -42,7 +43,7 @@ python -m lfm3_instant.run_eval --model LiquidAI/LFM3-1.7B --limit 100 --out res
 # fallback if vLLM fails: --backend hf
 ```
 
-On Kaggle: upload `notebooks/kaggle_baseline.ipynb`, set *Accelerator* to **GPU T4 x2** and *Internet* to **On**, then *Run All*.
+On Kaggle: import `notebooks/LFM3_Thinking_ON_vs_OFF.ipynb`, set *Accelerator* to **GPU T4 x2** and *Internet* to **On**, then *Run All*. It checks the scorers first (reference answers must score ~100%), then runs both modes and shows tables, charts, failure examples, a speed test and an interactive ON/OFF sandbox.
 
 ## Method notes
 
