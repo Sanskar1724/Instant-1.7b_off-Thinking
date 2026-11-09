@@ -10,8 +10,9 @@ venv/
 data/
 vendor/
 
-# Run outputs
-results/
+# Run outputs (published runs are kept under results/<run>/)
+results/*
+!results/baseline_v1/
 *.zip
 
 # Notebooks: keep the generated notebook, ignore checkpoints

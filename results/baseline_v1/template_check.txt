@@ -1,0 +1,11 @@
+ON:
+<|startoftext|><|im_start|>user
+What is 2+2?<|im_end|>
+<|im_start|>assistant
+<think>
+
+OFF:
+<|startoftext|><|im_start|>user
+What is 2+2?<|im_end|>
+<|im_start|>assistant
+<think></think>

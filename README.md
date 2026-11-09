@@ -7,7 +7,17 @@ LFM3-1.7B is a very strong small model, but it thinks by default, and that costs
 1. **Measures it.** An honest thinking-ON vs thinking-OFF baseline on HumanEval+, MBPP+, LiveCodeBench v6, GSM8K, IFEval, IFBench and BFCL tool calling (accuracy, tokens, truncation, leaked thinking, speed).
 2. **Fixes it** (next). Fine-tunes the model on its own verified answers so it answers directly, with fewer tokens, and checks the result at Q4 GGUF too.
 
-> Status: evaluation harness done and tested; baseline run on Kaggle in progress. No results yet.
+> Status: first baseline done ([results/baseline_v1](results/baseline_v1/README.md)). Next: bigger baseline, Q4 GGUF, then training data.
+
+## First results (baseline v1, small sample)
+
+| | Thinking ON | Thinking OFF |
+|---|---|---|
+| Average accuracy (7 benchmarks) | 70.1% | 68.1% |
+| Mean tokens per answer | 2324 | 1500 |
+| Answers cut off at the token limit | 41 / 240 (17%) | 18 / 240 (8%) |
+
+Key finding: **`enable_thinking=False` does not reliably switch thinking off.** On HumanEval+ 83% of "OFF" answers still reasoned in plain text and closed it with their own `</think>`, so OFF saved almost no tokens on code. When the model does answer directly it is very cheap (median 43 tokens on BFCL tool calls vs 284 with thinking), which is the behaviour this project trains for. Details: [results/baseline_v1](results/baseline_v1/README.md).
 
 ## Repository layout
 
