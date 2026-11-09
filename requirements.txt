@@ -1,0 +1,10 @@
+# Scoring and data
+evalplus
+absl-py
+langdetect
+immutabledict
+nltk
+pytest
+# Model backends (install on the GPU machine, e.g. Kaggle)
+# vllm            # fast backend (recommended)
+# transformers    # fallback backend: pip install -U transformers accelerate

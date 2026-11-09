@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Auto-downloaded benchmark data and checker code (re-fetched on first run)
+data/
+vendor/
+
+# Run outputs
+results/
+*.zip
+
+# Notebooks: keep the generated notebook, ignore checkpoints
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
