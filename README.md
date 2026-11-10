@@ -36,6 +36,7 @@ lfm3_instant/
 tests/            parsing unit tests + end-to-end runs with a mock model
 notebooks/
   LFM3_Thinking_ON_vs_OFF.ipynb   Experiment 1: the full ON vs OFF study in one readable Kaggle notebook
+  Step2_Training_Data.ipynb       Step 2: training data from the model's own verified answers (thinking removed)
   kaggle_baseline.ipynb           earlier vLLM-based version
 ```
 
