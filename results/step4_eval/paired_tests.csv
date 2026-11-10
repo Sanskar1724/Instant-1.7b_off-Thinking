@@ -1,0 +1,17 @@
+compare,bench,only INSTANT right,only other right,p,clear difference?
+INSTANT vs OFF,bfcl,1,1,1.0,no
+INSTANT vs OFF,gsm8k,1,1,1.0,no
+INSTANT vs OFF,humaneval,5,14,0.063568115234375,no
+INSTANT vs OFF,ifbench,5,9,0.4239501953125,no
+INSTANT vs OFF,ifeval,2,5,0.453125,no
+INSTANT vs OFF,livecodebench,2,4,0.6875,no
+INSTANT vs OFF,mbpp,6,10,0.454498291015625,no
+INSTANT vs OFF,ALL,22,44,0.00921048969455458,"yes, INSTANT worse"
+INSTANT vs ON,bfcl,0,9,0.00390625,"yes, INSTANT worse"
+INSTANT vs ON,gsm8k,4,1,0.375,no
+INSTANT vs ON,humaneval,7,15,0.13380050659179688,no
+INSTANT vs ON,ifbench,7,18,0.043285250663757324,"yes, INSTANT worse"
+INSTANT vs ON,ifeval,11,16,0.44206833839416504,no
+INSTANT vs ON,livecodebench,1,1,1.0,no
+INSTANT vs ON,mbpp,2,17,0.000728607177734375,"yes, INSTANT worse"
+INSTANT vs ON,ALL,32,77,1.9380484093664115e-05,"yes, INSTANT worse"

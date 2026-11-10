@@ -1,0 +1,26 @@
+Loading weights:   0%|          | 0/286 [00:00<?, ?it/s]Loading weights:   6%|▌         | 17/286 [00:00<00:01, 147.06it/s]Loading weights:  19%|█▊        | 53/286 [00:00<00:00, 262.61it/s]Loading weights:  33%|███▎      | 95/286 [00:00<00:00, 304.98it/s]Loading weights:  48%|████▊     | 138/286 [00:00<00:00, 346.21it/s]Loading weights:  61%|██████    | 174/286 [00:00<00:00, 347.17it/s]Loading weights:  73%|███████▎  | 210/286 [00:00<00:00, 348.88it/s]Loading weights:  89%|████████▉ | 254/286 [00:00<00:00, 369.63it/s]Loading weights: 100%|██████████| 286/286 [00:00<00:00, 337.24it/s]
+17:50:12 [GPU1] model loaded (torch.float16), batch size 64
+17:50:21 [GPU1] CHECK chunked vs one-go generation: first 48 of 48 tokens identical -> OK
+17:50:21 [GPU1] 0 answers already saved, 600 to go
+17:51:55 [GPU1] general/4096: 64 in batch, 1024 tokens in 94s, 60 finished (this GPU: 60, 252 tokens/s)
+17:54:31 [GPU1] general/4096: 64 in batch, 1024 tokens in 156s, 56 finished (this GPU: 116, 202 tokens/s)
+17:54:33 [GPU1] out of memory -> batch size 32
+17:56:43 [GPU1] general/4096: 32 in batch, 1024 tokens in 130s, 27 finished (this GPU: 143, 161 tokens/s)
+17:56:57 [GPU1] out of memory -> batch size 16
+17:58:30 [GPU1] general/4096: 16 in batch, 1024 tokens in 93s, 14 finished (this GPU: 157, 137 tokens/s)
+18:00:00 [GPU1] general/4096: 16 in batch, 1024 tokens in 90s, 15 finished (this GPU: 172, 123 tokens/s)
+18:01:32 [GPU1] general/4096: 16 in batch, 1024 tokens in 93s, 15 finished (this GPU: 187, 111 tokens/s)
+18:03:02 [GPU1] general/4096: 16 in batch, 1024 tokens in 89s, 14 finished (this GPU: 201, 108 tokens/s)
+18:03:57 [GPU1] general/4096: 16 in batch, 1024 tokens in 55s, 15 finished (this GPU: 216, 107 tokens/s)
+18:04:51 [GPU1] general/4096: 16 in batch, 1024 tokens in 54s, 14 finished (this GPU: 230, 109 tokens/s)
+18:05:46 [GPU1] general/4096: 16 in batch, 1024 tokens in 55s, 12 finished (this GPU: 242, 112 tokens/s)
+18:06:56 [GPU1] general/4096: 16 in batch, 1024 tokens in 71s, 11 finished (this GPU: 253, 114 tokens/s)
+18:08:09 [GPU1] general/4096: 16 in batch, 1024 tokens in 72s, 14 finished (this GPU: 267, 112 tokens/s)
+18:09:21 [GPU1] general/4096: 16 in batch, 1024 tokens in 72s, 15 finished (this GPU: 282, 107 tokens/s)
+18:10:49 [GPU1] general/4096: 16 in batch, 1024 tokens in 89s, 16 finished (this GPU: 298, 101 tokens/s)
+18:11:38 [GPU1] math/4096: 16 in batch, 1024 tokens in 49s, 15 finished (this GPU: 313, 101 tokens/s)
+18:12:02 [GPU1] math/4096: 16 in batch, 1024 tokens in 24s, 16 finished (this GPU: 329, 101 tokens/s)
+18:12:51 [GPU1] math/4096: 16 in batch, 1024 tokens in 49s, 13 finished (this GPU: 342, 102 tokens/s)
+18:13:45 [GPU1] math/4096: 14 in batch, 1024 tokens in 54s, 12 finished (this GPU: 354, 101 tokens/s)
+18:14:23 [GPU1] math/4096: 2 in batch, 1024 tokens in 39s, 2 finished (this GPU: 356, 99 tokens/s)
+18:14:23 [GPU1] all done

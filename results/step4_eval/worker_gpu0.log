@@ -1,0 +1,24 @@
+Loading weights:   0%|          | 0/286 [00:00<?, ?it/s]Loading weights:   6%|▋         | 18/286 [00:00<00:01, 174.61it/s]Loading weights:  17%|█▋        | 49/286 [00:00<00:00, 238.37it/s]Loading weights:  26%|██▌       | 73/286 [00:00<00:00, 217.19it/s]Loading weights:  39%|███▉      | 112/286 [00:00<00:00, 271.65it/s]Loading weights:  50%|█████     | 143/286 [00:00<00:00, 282.15it/s]Loading weights:  64%|██████▍   | 184/286 [00:00<00:00, 321.22it/s]Loading weights:  76%|███████▌  | 217/286 [00:00<00:00, 322.36it/s]Loading weights:  90%|█████████ | 258/286 [00:00<00:00, 345.79it/s]Loading weights: 100%|██████████| 286/286 [00:00<00:00, 311.22it/s]
+17:50:10 [GPU0] model loaded (torch.float16), batch size 64
+17:50:17 [GPU0] CHECK chunked vs one-go generation: first 48 of 48 tokens identical -> OK
+17:50:17 [GPU0] 0 answers already saved, 600 to go
+17:53:13 [GPU0] general/8192: 30 in batch, 2048 tokens in 176s, 18 finished (this GPU: 18, 218 tokens/s)
+17:55:47 [GPU0] general/8192: 12 in batch, 2048 tokens in 154s, 6 finished (this GPU: 24, 169 tokens/s)
+17:58:03 [GPU0] general/8192: 6 in batch, 2048 tokens in 135s, 3 finished (this GPU: 27, 141 tokens/s)
+17:59:46 [GPU0] general/8192: 3 in batch, 2048 tokens in 103s, 3 finished (this GPU: 30, 126 tokens/s)
+18:01:23 [GPU0] general/4096: 64 in batch, 1024 tokens in 96s, 61 finished (this GPU: 91, 136 tokens/s)
+18:01:32 [GPU0] out of memory -> batch size 32
+18:03:00 [GPU0] general/4096: 32 in batch, 1024 tokens in 88s, 29 finished (this GPU: 120, 133 tokens/s)
+18:03:07 [GPU0] out of memory -> batch size 16
+18:04:17 [GPU0] general/4096: 16 in batch, 1024 tokens in 70s, 15 finished (this GPU: 135, 127 tokens/s)
+18:05:44 [GPU0] general/4096: 16 in batch, 1024 tokens in 87s, 14 finished (this GPU: 149, 122 tokens/s)
+18:07:00 [GPU0] general/4096: 16 in batch, 1024 tokens in 76s, 10 finished (this GPU: 159, 123 tokens/s)
+18:08:10 [GPU0] general/4096: 16 in batch, 1024 tokens in 70s, 12 finished (this GPU: 171, 120 tokens/s)
+18:09:36 [GPU0] general/4096: 16 in batch, 1024 tokens in 87s, 15 finished (this GPU: 186, 115 tokens/s)
+18:11:03 [GPU0] general/4096: 16 in batch, 1024 tokens in 86s, 16 finished (this GPU: 202, 109 tokens/s)
+18:11:51 [GPU0] math/4096: 16 in batch, 1024 tokens in 49s, 14 finished (this GPU: 216, 108 tokens/s)
+18:12:49 [GPU0] math/4096: 16 in batch, 1024 tokens in 57s, 12 finished (this GPU: 228, 108 tokens/s)
+18:14:01 [GPU0] math/4096: 16 in batch, 1024 tokens in 73s, 10 finished (this GPU: 238, 109 tokens/s)
+18:14:54 [GPU0] math/4096: 6 in batch, 1024 tokens in 53s, 5 finished (this GPU: 243, 108 tokens/s)
+18:15:39 [GPU0] math/4096: 1 in batch, 1024 tokens in 45s, 1 finished (this GPU: 244, 105 tokens/s)
+18:15:39 [GPU0] all done

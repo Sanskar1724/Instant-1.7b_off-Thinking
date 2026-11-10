@@ -15,7 +15,11 @@ LFM3-1.7B is a very strong small model, but it thinks by default, and that costs
 >   - cut-off answers 15% → **3%**;
 >   - answers 39% shorter;
 >   - no loss on the answers we could check.
-> - Next: the full benchmark of the fine-tuned model (`notebooks/Step4_Instant_vs_Base.ipynb`), then Q4 GGUF.
+> - Full benchmark of the first fine-tune done ([results/step4_eval](results/step4_eval/README.md)):
+>   - **1.8x fewer tokens than thinking OFF** (3.3x fewer than ON);
+>   - cut-offs 2%;
+>   - **but about 4 points less accurate than thinking OFF** (65.6% vs 69.4%), mostly on code, where the hidden reasoning it removed was helping.
+> - Next: round 2 of the training data (more knowledge from thinking ON, short plans allowed where needed).
 
 ## Baseline results (v2: 100 per benchmark, 1,200 answers)
 
