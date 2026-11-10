@@ -49,6 +49,7 @@ tests/            parsing unit tests + end-to-end runs with a mock model
 notebooks/
   LFM3_Thinking_ON_vs_OFF.ipynb   Experiment 1: the full ON vs OFF study in one readable Kaggle notebook
   Step2_Training_Data.ipynb       Step 2: training data from the model's own verified answers (thinking removed)
+  Step2b_Training_Data_Round2.ipynb  Step 2b: round-2 data (reuses round 1; short plans where needed; fewer easy examples)
   Step3_LoRA_Finetune.ipynb       Step 3: LoRA fine-tune on that data, before/after check, merged model
   Step4_Instant_vs_Base.ipynb     Step 4: full benchmark of the fine-tuned model vs LFM3 thinking ON / OFF (same 600 questions)
   kaggle_baseline.ipynb           earlier vLLM-based version
