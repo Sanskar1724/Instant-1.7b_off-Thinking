@@ -13,6 +13,7 @@ vendor/
 # Run outputs (published runs are kept under results/<run>/)
 results/*
 !results/baseline_v1/
+!results/baseline_v2/
 *.zip
 
 # Notebooks: keep the generated notebook, ignore checkpoints

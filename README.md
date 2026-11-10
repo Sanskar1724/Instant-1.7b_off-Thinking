@@ -7,17 +7,23 @@ LFM3-1.7B is a very strong small model, but it thinks by default, and that costs
 1. **Measures it.** An honest thinking-ON vs thinking-OFF baseline on HumanEval+, MBPP+, LiveCodeBench v6, GSM8K, IFEval, IFBench and BFCL tool calling (accuracy, tokens, truncation, leaked thinking, speed).
 2. **Fixes it** (next). Fine-tunes the model on its own verified answers so it answers directly, with fewer tokens, and checks the result at Q4 GGUF too.
 
-> Status: first baseline done ([results/baseline_v1](results/baseline_v1/README.md)). Next: bigger baseline, Q4 GGUF, then training data.
+> Status: baseline done ([v2, 1,200 answers](results/baseline_v2/README.md); first small run: [v1](results/baseline_v1/README.md)). Next: training data, then LoRA fine-tune.
 
-## First results (baseline v1, small sample)
+## Baseline results (v2: 100 per benchmark, 1,200 answers)
 
 | | Thinking ON | Thinking OFF |
 |---|---|---|
-| Average accuracy (7 benchmarks) | 70.1% | 68.1% |
-| Mean tokens per answer | 2324 | 1500 |
-| Answers cut off at the token limit | 41 / 240 (17%) | 18 / 240 (8%) |
+| Average accuracy (7 benchmarks) | 73.0% | 69.4% |
+| Mean tokens per answer | 1951 | 982 |
+| Answers cut off at the token limit | 110 / 600 (18%) | 39 / 600 (6.5%) |
+| Answers with hidden reasoning (OFF) | – | 141 / 600 (24%) |
 
-Key finding: **`enable_thinking=False` does not reliably switch thinking off.** On HumanEval+ 83% of "OFF" answers still reasoned in plain text and closed it with their own `</think>`, so OFF saved almost no tokens on code. When the model does answer directly it is very cheap (median 43 tokens on BFCL tool calls vs 284 with thinking), which is the behaviour this project trains for. Details: [results/baseline_v1](results/baseline_v1/README.md).
+Key findings:
+- **`enable_thinking=False` does not reliably switch thinking off.** On HumanEval+ 70% of "OFF" answers (LiveCodeBench: 60%) still reasoned in plain text and closed it with their own `</think>`, so OFF saves almost no tokens on code.
+- **Where OFF does answer directly, it loses real accuracy:** MBPP+ −11 points and BFCL tool calls −13 points (both statistically clear in a paired test), mostly on parallel tool calls.
+- **Thinking ON is accurate when it finishes (87–95%) but often runs out of budget:** 58% of IFBench answers hit the 4K limit.
+
+The goal of the fine-tune is therefore: direct answers with no hidden reasoning, almost no cut-offs, about 50–250 tokens, and accuracy close to thinking ON. Details: [results/baseline_v2](results/baseline_v2/README.md).
 
 ## Repository layout
 

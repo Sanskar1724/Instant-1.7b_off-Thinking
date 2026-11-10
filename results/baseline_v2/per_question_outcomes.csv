@@ -1,0 +1,601 @@
+bench,id,OFF,ON,outcome
+bfcl,irrelevance_1,True,True,both right
+bfcl,irrelevance_106,True,True,both right
+bfcl,irrelevance_116,True,True,both right
+bfcl,irrelevance_128,True,True,both right
+bfcl,irrelevance_213,False,False,both wrong
+bfcl,irrelevance_214,True,True,both right
+bfcl,irrelevance_43,True,True,both right
+bfcl,irrelevance_65,False,False,both wrong
+bfcl,irrelevance_69,True,True,both right
+bfcl,irrelevance_88,True,True,both right
+bfcl,live_multiple_140-54-0,True,True,both right
+bfcl,live_multiple_261-125-0,True,True,both right
+bfcl,live_multiple_275-127-10,False,False,both wrong
+bfcl,live_multiple_352-133-16,True,True,both right
+bfcl,live_multiple_399-139-3,False,True,only ON right
+bfcl,live_multiple_668-162-10,True,True,both right
+bfcl,live_multiple_789-174-3,True,True,both right
+bfcl,live_multiple_792-174-6,True,True,both right
+bfcl,live_multiple_913-191-1,True,True,both right
+bfcl,live_multiple_997-228-0,True,True,both right
+bfcl,live_simple_174-100-0,True,True,both right
+bfcl,live_simple_208-117-0,True,True,both right
+bfcl,live_simple_218-117-10,True,True,both right
+bfcl,live_simple_230-121-0,False,True,only ON right
+bfcl,live_simple_39-16-0,True,True,both right
+bfcl,live_simple_45-18-1,False,False,both wrong
+bfcl,live_simple_57-26-1,True,True,both right
+bfcl,live_simple_58-27-0,True,True,both right
+bfcl,live_simple_63-29-3,True,True,both right
+bfcl,live_simple_78-39-0,True,True,both right
+bfcl,multiple_131,True,True,both right
+bfcl,multiple_144,True,True,both right
+bfcl,multiple_172,True,True,both right
+bfcl,multiple_181,True,True,both right
+bfcl,multiple_187,True,True,both right
+bfcl,multiple_22,True,True,both right
+bfcl,multiple_58,True,True,both right
+bfcl,multiple_92,False,True,only ON right
+bfcl,multiple_93,True,True,both right
+bfcl,multiple_97,True,True,both right
+bfcl,parallel_131,True,True,both right
+bfcl,parallel_144,True,True,both right
+bfcl,parallel_172,True,True,both right
+bfcl,parallel_181,False,True,only ON right
+bfcl,parallel_187,False,True,only ON right
+bfcl,parallel_22,False,True,only ON right
+bfcl,parallel_58,True,True,both right
+bfcl,parallel_92,False,True,only ON right
+bfcl,parallel_93,True,True,both right
+bfcl,parallel_97,True,True,both right
+bfcl,parallel_multiple_131,False,True,only ON right
+bfcl,parallel_multiple_144,True,True,both right
+bfcl,parallel_multiple_172,True,True,both right
+bfcl,parallel_multiple_181,True,True,both right
+bfcl,parallel_multiple_187,False,True,only ON right
+bfcl,parallel_multiple_22,True,True,both right
+bfcl,parallel_multiple_58,True,True,both right
+bfcl,parallel_multiple_92,True,True,both right
+bfcl,parallel_multiple_93,True,True,both right
+bfcl,parallel_multiple_97,False,False,both wrong
+bfcl,simple_python_150,True,True,both right
+bfcl,simple_python_185,True,True,both right
+bfcl,simple_python_279,False,False,both wrong
+bfcl,simple_python_299,False,False,both wrong
+bfcl,simple_python_36,True,True,both right
+bfcl,simple_python_381,True,True,both right
+bfcl,simple_python_4,True,True,both right
+bfcl,simple_python_6,True,True,both right
+bfcl,simple_python_62,True,True,both right
+bfcl,simple_python_65,True,True,both right
+gsm8k,gsm8k/1001,False,False,both wrong
+gsm8k,gsm8k/1011,True,True,both right
+gsm8k,gsm8k/1020,True,True,both right
+gsm8k,gsm8k/1035,False,False,both wrong
+gsm8k,gsm8k/1048,False,False,both wrong
+gsm8k,gsm8k/1050,False,False,both wrong
+gsm8k,gsm8k/1052,True,True,both right
+gsm8k,gsm8k/1062,True,True,both right
+gsm8k,gsm8k/1070,False,False,both wrong
+gsm8k,gsm8k/108,True,True,both right
+gsm8k,gsm8k/1083,True,True,both right
+gsm8k,gsm8k/1101,True,True,both right
+gsm8k,gsm8k/1110,True,True,both right
+gsm8k,gsm8k/1115,True,True,both right
+gsm8k,gsm8k/1126,True,True,both right
+gsm8k,gsm8k/1130,True,True,both right
+gsm8k,gsm8k/1137,True,True,both right
+gsm8k,gsm8k/1161,False,False,both wrong
+gsm8k,gsm8k/1167,True,True,both right
+gsm8k,gsm8k/1170,True,True,both right
+gsm8k,gsm8k/120,True,True,both right
+gsm8k,gsm8k/1226,True,False,only OFF right
+gsm8k,gsm8k/1234,True,True,both right
+gsm8k,gsm8k/1236,True,True,both right
+gsm8k,gsm8k/1257,True,True,both right
+gsm8k,gsm8k/1263,True,True,both right
+gsm8k,gsm8k/1274,True,True,both right
+gsm8k,gsm8k/1288,False,False,both wrong
+gsm8k,gsm8k/1289,True,True,both right
+gsm8k,gsm8k/1302,True,True,both right
+gsm8k,gsm8k/175,True,True,both right
+gsm8k,gsm8k/192,True,True,both right
+gsm8k,gsm8k/197,True,True,both right
+gsm8k,gsm8k/204,True,True,both right
+gsm8k,gsm8k/217,True,True,both right
+gsm8k,gsm8k/23,True,True,both right
+gsm8k,gsm8k/231,True,True,both right
+gsm8k,gsm8k/247,True,True,both right
+gsm8k,gsm8k/249,True,True,both right
+gsm8k,gsm8k/259,True,True,both right
+gsm8k,gsm8k/265,True,True,both right
+gsm8k,gsm8k/272,True,True,both right
+gsm8k,gsm8k/294,True,True,both right
+gsm8k,gsm8k/319,True,True,both right
+gsm8k,gsm8k/350,True,True,both right
+gsm8k,gsm8k/399,True,True,both right
+gsm8k,gsm8k/411,True,True,both right
+gsm8k,gsm8k/420,True,True,both right
+gsm8k,gsm8k/423,False,False,both wrong
+gsm8k,gsm8k/428,True,True,both right
+gsm8k,gsm8k/445,True,True,both right
+gsm8k,gsm8k/446,True,True,both right
+gsm8k,gsm8k/458,True,True,both right
+gsm8k,gsm8k/465,True,True,both right
+gsm8k,gsm8k/467,True,True,both right
+gsm8k,gsm8k/470,True,True,both right
+gsm8k,gsm8k/474,True,True,both right
+gsm8k,gsm8k/476,True,True,both right
+gsm8k,gsm8k/480,True,True,both right
+gsm8k,gsm8k/487,True,True,both right
+gsm8k,gsm8k/51,True,True,both right
+gsm8k,gsm8k/515,True,False,only OFF right
+gsm8k,gsm8k/521,True,True,both right
+gsm8k,gsm8k/543,True,True,both right
+gsm8k,gsm8k/544,True,True,both right
+gsm8k,gsm8k/545,True,True,both right
+gsm8k,gsm8k/550,True,True,both right
+gsm8k,gsm8k/552,True,False,only OFF right
+gsm8k,gsm8k/554,True,True,both right
+gsm8k,gsm8k/590,False,False,both wrong
+gsm8k,gsm8k/604,True,True,both right
+gsm8k,gsm8k/605,True,True,both right
+gsm8k,gsm8k/611,True,True,both right
+gsm8k,gsm8k/620,True,True,both right
+gsm8k,gsm8k/625,True,True,both right
+gsm8k,gsm8k/643,True,True,both right
+gsm8k,gsm8k/68,True,True,both right
+gsm8k,gsm8k/680,True,True,both right
+gsm8k,gsm8k/685,True,True,both right
+gsm8k,gsm8k/708,True,True,both right
+gsm8k,gsm8k/712,True,True,both right
+gsm8k,gsm8k/736,True,True,both right
+gsm8k,gsm8k/743,True,True,both right
+gsm8k,gsm8k/76,True,True,both right
+gsm8k,gsm8k/763,True,True,both right
+gsm8k,gsm8k/781,False,False,both wrong
+gsm8k,gsm8k/785,True,True,both right
+gsm8k,gsm8k/789,True,True,both right
+gsm8k,gsm8k/799,True,True,both right
+gsm8k,gsm8k/857,False,False,both wrong
+gsm8k,gsm8k/867,True,True,both right
+gsm8k,gsm8k/874,True,True,both right
+gsm8k,gsm8k/883,True,True,both right
+gsm8k,gsm8k/934,True,True,both right
+gsm8k,gsm8k/945,True,True,both right
+gsm8k,gsm8k/950,True,True,both right
+gsm8k,gsm8k/952,False,False,both wrong
+gsm8k,gsm8k/957,True,True,both right
+gsm8k,gsm8k/99,True,True,both right
+gsm8k,gsm8k/991,True,True,both right
+humaneval,HumanEval/1,False,False,both wrong
+humaneval,HumanEval/101,True,True,both right
+humaneval,HumanEval/104,True,True,both right
+humaneval,HumanEval/106,True,True,both right
+humaneval,HumanEval/108,True,True,both right
+humaneval,HumanEval/109,True,True,both right
+humaneval,HumanEval/110,True,True,both right
+humaneval,HumanEval/112,True,True,both right
+humaneval,HumanEval/114,True,True,both right
+humaneval,HumanEval/115,True,True,both right
+humaneval,HumanEval/116,False,False,both wrong
+humaneval,HumanEval/119,True,True,both right
+humaneval,HumanEval/12,True,True,both right
+humaneval,HumanEval/121,True,True,both right
+humaneval,HumanEval/123,False,False,both wrong
+humaneval,HumanEval/128,True,True,both right
+humaneval,HumanEval/13,True,True,both right
+humaneval,HumanEval/131,True,True,both right
+humaneval,HumanEval/132,False,False,both wrong
+humaneval,HumanEval/133,True,True,both right
+humaneval,HumanEval/134,True,False,only OFF right
+humaneval,HumanEval/138,True,True,both right
+humaneval,HumanEval/139,True,True,both right
+humaneval,HumanEval/14,True,True,both right
+humaneval,HumanEval/140,True,True,both right
+humaneval,HumanEval/143,True,True,both right
+humaneval,HumanEval/144,True,True,both right
+humaneval,HumanEval/146,True,False,only OFF right
+humaneval,HumanEval/148,True,True,both right
+humaneval,HumanEval/151,False,False,both wrong
+humaneval,HumanEval/152,True,True,both right
+humaneval,HumanEval/154,False,False,both wrong
+humaneval,HumanEval/156,False,True,only ON right
+humaneval,HumanEval/157,True,True,both right
+humaneval,HumanEval/158,True,True,both right
+humaneval,HumanEval/159,True,True,both right
+humaneval,HumanEval/16,True,True,both right
+humaneval,HumanEval/161,True,True,both right
+humaneval,HumanEval/162,True,True,both right
+humaneval,HumanEval/163,False,False,both wrong
+humaneval,HumanEval/17,True,True,both right
+humaneval,HumanEval/19,True,True,both right
+humaneval,HumanEval/2,True,True,both right
+humaneval,HumanEval/20,True,True,both right
+humaneval,HumanEval/21,True,True,both right
+humaneval,HumanEval/22,False,True,only ON right
+humaneval,HumanEval/26,True,True,both right
+humaneval,HumanEval/27,True,True,both right
+humaneval,HumanEval/29,True,True,both right
+humaneval,HumanEval/32,False,False,both wrong
+humaneval,HumanEval/33,True,True,both right
+humaneval,HumanEval/34,True,True,both right
+humaneval,HumanEval/36,True,True,both right
+humaneval,HumanEval/38,True,True,both right
+humaneval,HumanEval/39,False,False,both wrong
+humaneval,HumanEval/4,True,True,both right
+humaneval,HumanEval/40,True,True,both right
+humaneval,HumanEval/43,True,True,both right
+humaneval,HumanEval/44,True,True,both right
+humaneval,HumanEval/45,True,True,both right
+humaneval,HumanEval/46,True,True,both right
+humaneval,HumanEval/47,True,True,both right
+humaneval,HumanEval/48,True,True,both right
+humaneval,HumanEval/49,True,True,both right
+humaneval,HumanEval/5,True,True,both right
+humaneval,HumanEval/50,True,False,only OFF right
+humaneval,HumanEval/51,True,True,both right
+humaneval,HumanEval/53,True,True,both right
+humaneval,HumanEval/54,True,True,both right
+humaneval,HumanEval/56,True,True,both right
+humaneval,HumanEval/58,True,True,both right
+humaneval,HumanEval/59,True,True,both right
+humaneval,HumanEval/6,True,False,only OFF right
+humaneval,HumanEval/60,True,True,both right
+humaneval,HumanEval/61,True,True,both right
+humaneval,HumanEval/62,True,True,both right
+humaneval,HumanEval/65,True,True,both right
+humaneval,HumanEval/67,True,True,both right
+humaneval,HumanEval/68,True,True,both right
+humaneval,HumanEval/7,True,True,both right
+humaneval,HumanEval/70,True,True,both right
+humaneval,HumanEval/71,True,True,both right
+humaneval,HumanEval/73,True,True,both right
+humaneval,HumanEval/74,True,True,both right
+humaneval,HumanEval/75,True,False,only OFF right
+humaneval,HumanEval/76,False,False,both wrong
+humaneval,HumanEval/81,False,False,both wrong
+humaneval,HumanEval/82,True,True,both right
+humaneval,HumanEval/83,True,True,both right
+humaneval,HumanEval/86,False,False,both wrong
+humaneval,HumanEval/87,True,True,both right
+humaneval,HumanEval/88,True,True,both right
+humaneval,HumanEval/89,False,True,only ON right
+humaneval,HumanEval/9,True,True,both right
+humaneval,HumanEval/92,True,True,both right
+humaneval,HumanEval/94,True,True,both right
+humaneval,HumanEval/95,True,True,both right
+humaneval,HumanEval/96,True,True,both right
+humaneval,HumanEval/97,False,False,both wrong
+humaneval,HumanEval/99,False,True,only ON right
+ifbench,ifbench/1,False,False,both wrong
+ifbench,ifbench/10,False,False,both wrong
+ifbench,ifbench/101,True,True,both right
+ifbench,ifbench/102,True,True,both right
+ifbench,ifbench/103,True,True,both right
+ifbench,ifbench/105,False,False,both wrong
+ifbench,ifbench/110,True,True,both right
+ifbench,ifbench/112,True,True,both right
+ifbench,ifbench/116,True,True,both right
+ifbench,ifbench/118,False,True,only ON right
+ifbench,ifbench/119,False,False,both wrong
+ifbench,ifbench/120,False,False,both wrong
+ifbench,ifbench/127,False,False,both wrong
+ifbench,ifbench/129,False,False,both wrong
+ifbench,ifbench/13,False,False,both wrong
+ifbench,ifbench/131,True,False,only OFF right
+ifbench,ifbench/135,False,False,both wrong
+ifbench,ifbench/137,True,False,only OFF right
+ifbench,ifbench/14,False,False,both wrong
+ifbench,ifbench/142,False,True,only ON right
+ifbench,ifbench/143,False,False,both wrong
+ifbench,ifbench/149,False,False,both wrong
+ifbench,ifbench/151,False,False,both wrong
+ifbench,ifbench/153,False,False,both wrong
+ifbench,ifbench/157,False,True,only ON right
+ifbench,ifbench/16,True,True,both right
+ifbench,ifbench/160,False,True,only ON right
+ifbench,ifbench/162,False,True,only ON right
+ifbench,ifbench/163,False,True,only ON right
+ifbench,ifbench/167,False,False,both wrong
+ifbench,ifbench/171,True,True,both right
+ifbench,ifbench/176,True,False,only OFF right
+ifbench,ifbench/178,True,True,both right
+ifbench,ifbench/182,False,False,both wrong
+ifbench,ifbench/184,False,True,only ON right
+ifbench,ifbench/185,False,True,only ON right
+ifbench,ifbench/188,False,False,both wrong
+ifbench,ifbench/19,True,False,only OFF right
+ifbench,ifbench/191,False,False,both wrong
+ifbench,ifbench/2,False,False,both wrong
+ifbench,ifbench/201,False,False,both wrong
+ifbench,ifbench/209,False,False,both wrong
+ifbench,ifbench/211,False,False,both wrong
+ifbench,ifbench/216,False,False,both wrong
+ifbench,ifbench/217,False,False,both wrong
+ifbench,ifbench/219,True,False,only OFF right
+ifbench,ifbench/225,False,True,only ON right
+ifbench,ifbench/227,False,False,both wrong
+ifbench,ifbench/230,False,False,both wrong
+ifbench,ifbench/24,False,False,both wrong
+ifbench,ifbench/240,False,True,only ON right
+ifbench,ifbench/243,True,False,only OFF right
+ifbench,ifbench/249,False,False,both wrong
+ifbench,ifbench/250,False,False,both wrong
+ifbench,ifbench/251,False,False,both wrong
+ifbench,ifbench/256,True,False,only OFF right
+ifbench,ifbench/257,False,False,both wrong
+ifbench,ifbench/262,False,True,only ON right
+ifbench,ifbench/270,False,False,both wrong
+ifbench,ifbench/271,False,False,both wrong
+ifbench,ifbench/275,False,False,both wrong
+ifbench,ifbench/276,False,False,both wrong
+ifbench,ifbench/28,True,True,both right
+ifbench,ifbench/281,False,False,both wrong
+ifbench,ifbench/283,False,True,only ON right
+ifbench,ifbench/285,False,False,both wrong
+ifbench,ifbench/286,False,False,both wrong
+ifbench,ifbench/288,False,False,both wrong
+ifbench,ifbench/289,False,False,both wrong
+ifbench,ifbench/290,False,False,both wrong
+ifbench,ifbench/292,True,True,both right
+ifbench,ifbench/293,True,True,both right
+ifbench,ifbench/294,True,False,only OFF right
+ifbench,ifbench/299,False,True,only ON right
+ifbench,ifbench/3,False,False,both wrong
+ifbench,ifbench/34,True,True,both right
+ifbench,ifbench/35,False,False,both wrong
+ifbench,ifbench/39,True,False,only OFF right
+ifbench,ifbench/40,True,False,only OFF right
+ifbench,ifbench/41,False,False,both wrong
+ifbench,ifbench/42,False,True,only ON right
+ifbench,ifbench/46,False,False,both wrong
+ifbench,ifbench/54,True,True,both right
+ifbench,ifbench/57,True,True,both right
+ifbench,ifbench/58,False,False,both wrong
+ifbench,ifbench/63,False,True,only ON right
+ifbench,ifbench/65,False,True,only ON right
+ifbench,ifbench/67,False,False,both wrong
+ifbench,ifbench/68,True,True,both right
+ifbench,ifbench/78,False,False,both wrong
+ifbench,ifbench/79,False,False,both wrong
+ifbench,ifbench/80,False,False,both wrong
+ifbench,ifbench/82,False,False,both wrong
+ifbench,ifbench/84,False,True,only ON right
+ifbench,ifbench/87,False,False,both wrong
+ifbench,ifbench/88,True,False,only OFF right
+ifbench,ifbench/90,False,False,both wrong
+ifbench,ifbench/92,False,False,both wrong
+ifbench,ifbench/96,False,False,both wrong
+ifbench,ifbench/99,False,True,only ON right
+ifeval,ifeval/1001,True,True,both right
+ifeval,ifeval/1094,True,True,both right
+ifeval,ifeval/1107,True,True,both right
+ifeval,ifeval/1129,False,True,only ON right
+ifeval,ifeval/1131,True,True,both right
+ifeval,ifeval/1137,True,True,both right
+ifeval,ifeval/1236,True,True,both right
+ifeval,ifeval/1237,True,True,both right
+ifeval,ifeval/1286,True,True,both right
+ifeval,ifeval/1287,False,True,only ON right
+ifeval,ifeval/13,True,False,only OFF right
+ifeval,ifeval/1314,True,True,both right
+ifeval,ifeval/1325,True,True,both right
+ifeval,ifeval/136,True,True,both right
+ifeval,ifeval/1377,True,True,both right
+ifeval,ifeval/1402,False,False,both wrong
+ifeval,ifeval/1436,True,True,both right
+ifeval,ifeval/1498,False,False,both wrong
+ifeval,ifeval/1508,True,True,both right
+ifeval,ifeval/1548,True,True,both right
+ifeval,ifeval/1580,True,True,both right
+ifeval,ifeval/1592,True,True,both right
+ifeval,ifeval/1593,True,True,both right
+ifeval,ifeval/1629,True,False,only OFF right
+ifeval,ifeval/1634,True,True,both right
+ifeval,ifeval/164,True,True,both right
+ifeval,ifeval/1656,False,True,only ON right
+ifeval,ifeval/1659,True,True,both right
+ifeval,ifeval/167,True,True,both right
+ifeval,ifeval/1670,False,False,both wrong
+ifeval,ifeval/1675,False,False,both wrong
+ifeval,ifeval/1691,True,False,only OFF right
+ifeval,ifeval/1713,True,False,only OFF right
+ifeval,ifeval/1738,True,True,both right
+ifeval,ifeval/1781,False,False,both wrong
+ifeval,ifeval/181,False,True,only ON right
+ifeval,ifeval/1813,False,True,only ON right
+ifeval,ifeval/1823,False,True,only ON right
+ifeval,ifeval/1879,False,False,both wrong
+ifeval,ifeval/1902,True,True,both right
+ifeval,ifeval/1944,True,True,both right
+ifeval,ifeval/1967,True,True,both right
+ifeval,ifeval/2010,True,True,both right
+ifeval,ifeval/202,True,True,both right
+ifeval,ifeval/2034,False,True,only ON right
+ifeval,ifeval/2069,True,True,both right
+ifeval,ifeval/2070,True,True,both right
+ifeval,ifeval/2107,True,True,both right
+ifeval,ifeval/2143,True,True,both right
+ifeval,ifeval/2169,True,True,both right
+ifeval,ifeval/2195,True,True,both right
+ifeval,ifeval/2216,True,False,only OFF right
+ifeval,ifeval/2266,False,True,only ON right
+ifeval,ifeval/2268,True,True,both right
+ifeval,ifeval/2305,False,False,both wrong
+ifeval,ifeval/2392,True,True,both right
+ifeval,ifeval/2422,False,True,only ON right
+ifeval,ifeval/2439,True,True,both right
+ifeval,ifeval/2457,True,True,both right
+ifeval,ifeval/2471,False,False,both wrong
+ifeval,ifeval/2482,True,True,both right
+ifeval,ifeval/2505,True,True,both right
+ifeval,ifeval/2563,True,True,both right
+ifeval,ifeval/2571,True,True,both right
+ifeval,ifeval/2590,True,True,both right
+ifeval,ifeval/2622,True,True,both right
+ifeval,ifeval/2637,True,True,both right
+ifeval,ifeval/2667,True,True,both right
+ifeval,ifeval/2683,True,True,both right
+ifeval,ifeval/2736,False,False,both wrong
+ifeval,ifeval/2752,True,True,both right
+ifeval,ifeval/2787,True,True,both right
+ifeval,ifeval/279,True,False,only OFF right
+ifeval,ifeval/281,True,True,both right
+ifeval,ifeval/2828,False,True,only ON right
+ifeval,ifeval/2849,True,True,both right
+ifeval,ifeval/286,True,True,both right
+ifeval,ifeval/2909,True,False,only OFF right
+ifeval,ifeval/2912,True,False,only OFF right
+ifeval,ifeval/292,True,False,only OFF right
+ifeval,ifeval/2929,True,True,both right
+ifeval,ifeval/2943,False,True,only ON right
+ifeval,ifeval/2985,True,True,both right
+ifeval,ifeval/3035,False,False,both wrong
+ifeval,ifeval/3057,True,True,both right
+ifeval,ifeval/3063,True,False,only OFF right
+ifeval,ifeval/3130,True,True,both right
+ifeval,ifeval/3198,True,True,both right
+ifeval,ifeval/3281,True,True,both right
+ifeval,ifeval/332,False,False,both wrong
+ifeval,ifeval/3362,False,True,only ON right
+ifeval,ifeval/3415,True,True,both right
+ifeval,ifeval/3424,True,True,both right
+ifeval,ifeval/3428,True,True,both right
+ifeval,ifeval/3608,False,False,both wrong
+ifeval,ifeval/3633,False,False,both wrong
+ifeval,ifeval/3697,True,True,both right
+ifeval,ifeval/3719,True,True,both right
+ifeval,ifeval/3739,True,True,both right
+ifeval,ifeval/3751,True,True,both right
+livecodebench,lcb/3704,True,True,both right
+livecodebench,lcb/3705,True,True,both right
+livecodebench,lcb/3708,False,True,only ON right
+livecodebench,lcb/3720,True,False,only OFF right
+livecodebench,lcb/3721,False,False,both wrong
+livecodebench,lcb/3723,True,True,both right
+livecodebench,lcb/3773,True,False,only OFF right
+livecodebench,lcb/3785,False,True,only ON right
+livecodebench,lcb/3788,True,False,only OFF right
+livecodebench,lcb/3795,False,False,both wrong
+livecodebench,lcb/3809,True,True,both right
+livecodebench,lcb/abc387_a,True,True,both right
+livecodebench,lcb/abc387_c,False,False,both wrong
+livecodebench,lcb/abc388_a,True,True,both right
+livecodebench,lcb/abc389_b,True,True,both right
+livecodebench,lcb/abc389_d,False,False,both wrong
+livecodebench,lcb/abc390_a,True,True,both right
+livecodebench,lcb/abc390_b,True,True,both right
+livecodebench,lcb/abc390_c,True,False,only OFF right
+livecodebench,lcb/abc392_d,True,True,both right
+livecodebench,lcb/abc393_b,True,True,both right
+livecodebench,lcb/abc394_b,True,True,both right
+livecodebench,lcb/abc394_c,False,False,both wrong
+livecodebench,lcb/abc395_a,True,True,both right
+livecodebench,lcb/abc396_c,False,False,both wrong
+livecodebench,lcb/abc398_b,True,True,both right
+livecodebench,lcb/abc399_a,True,True,both right
+livecodebench,lcb/abc400_b,True,True,both right
+livecodebench,lcb/abc400_c,False,False,both wrong
+livecodebench,lcb/arc191_a,False,False,both wrong
+mbpp,Mbpp/101,True,True,both right
+mbpp,Mbpp/105,True,True,both right
+mbpp,Mbpp/108,True,True,both right
+mbpp,Mbpp/118,False,False,both wrong
+mbpp,Mbpp/123,False,False,both wrong
+mbpp,Mbpp/124,False,True,only ON right
+mbpp,Mbpp/129,False,False,both wrong
+mbpp,Mbpp/133,True,True,both right
+mbpp,Mbpp/137,False,False,both wrong
+mbpp,Mbpp/138,False,True,only ON right
+mbpp,Mbpp/139,True,True,both right
+mbpp,Mbpp/140,True,True,both right
+mbpp,Mbpp/145,True,True,both right
+mbpp,Mbpp/161,True,True,both right
+mbpp,Mbpp/167,True,True,both right
+mbpp,Mbpp/168,True,True,both right
+mbpp,Mbpp/18,True,True,both right
+mbpp,Mbpp/19,True,True,both right
+mbpp,Mbpp/227,True,True,both right
+mbpp,Mbpp/232,True,True,both right
+mbpp,Mbpp/234,True,True,both right
+mbpp,Mbpp/250,True,True,both right
+mbpp,Mbpp/251,True,True,both right
+mbpp,Mbpp/253,True,True,both right
+mbpp,Mbpp/262,False,True,only ON right
+mbpp,Mbpp/264,False,False,both wrong
+mbpp,Mbpp/265,False,True,only ON right
+mbpp,Mbpp/272,True,True,both right
+mbpp,Mbpp/276,True,True,both right
+mbpp,Mbpp/281,True,True,both right
+mbpp,Mbpp/3,False,True,only ON right
+mbpp,Mbpp/300,False,False,both wrong
+mbpp,Mbpp/306,False,False,both wrong
+mbpp,Mbpp/312,True,True,both right
+mbpp,Mbpp/391,False,True,only ON right
+mbpp,Mbpp/4,True,True,both right
+mbpp,Mbpp/409,True,True,both right
+mbpp,Mbpp/422,True,True,both right
+mbpp,Mbpp/424,True,True,both right
+mbpp,Mbpp/425,True,True,both right
+mbpp,Mbpp/428,True,False,only OFF right
+mbpp,Mbpp/429,True,True,both right
+mbpp,Mbpp/430,False,False,both wrong
+mbpp,Mbpp/432,True,True,both right
+mbpp,Mbpp/433,False,False,both wrong
+mbpp,Mbpp/440,False,False,both wrong
+mbpp,Mbpp/441,True,True,both right
+mbpp,Mbpp/445,True,True,both right
+mbpp,Mbpp/460,True,True,both right
+mbpp,Mbpp/470,True,True,both right
+mbpp,Mbpp/472,True,True,both right
+mbpp,Mbpp/473,True,False,only OFF right
+mbpp,Mbpp/474,True,True,both right
+mbpp,Mbpp/560,False,True,only ON right
+mbpp,Mbpp/564,False,True,only ON right
+mbpp,Mbpp/583,True,True,both right
+mbpp,Mbpp/585,True,True,both right
+mbpp,Mbpp/587,True,True,both right
+mbpp,Mbpp/592,True,True,both right
+mbpp,Mbpp/593,False,False,both wrong
+mbpp,Mbpp/594,True,True,both right
+mbpp,Mbpp/596,True,True,both right
+mbpp,Mbpp/600,True,True,both right
+mbpp,Mbpp/606,True,True,both right
+mbpp,Mbpp/610,False,True,only ON right
+mbpp,Mbpp/618,True,True,both right
+mbpp,Mbpp/620,False,False,both wrong
+mbpp,Mbpp/626,False,True,only ON right
+mbpp,Mbpp/637,True,True,both right
+mbpp,Mbpp/64,True,True,both right
+mbpp,Mbpp/644,True,True,both right
+mbpp,Mbpp/68,False,True,only ON right
+mbpp,Mbpp/69,True,True,both right
+mbpp,Mbpp/70,True,True,both right
+mbpp,Mbpp/726,True,True,both right
+mbpp,Mbpp/730,True,True,both right
+mbpp,Mbpp/733,True,True,both right
+mbpp,Mbpp/736,True,True,both right
+mbpp,Mbpp/737,True,True,both right
+mbpp,Mbpp/739,False,False,both wrong
+mbpp,Mbpp/742,True,True,both right
+mbpp,Mbpp/744,True,True,both right
+mbpp,Mbpp/757,True,True,both right
+mbpp,Mbpp/763,False,True,only ON right
+mbpp,Mbpp/769,False,False,both wrong
+mbpp,Mbpp/771,False,False,both wrong
+mbpp,Mbpp/772,True,True,both right
+mbpp,Mbpp/775,False,True,only ON right
+mbpp,Mbpp/780,False,False,both wrong
+mbpp,Mbpp/782,True,True,both right
+mbpp,Mbpp/785,False,False,both wrong
+mbpp,Mbpp/786,True,True,both right
+mbpp,Mbpp/793,True,True,both right
+mbpp,Mbpp/796,True,True,both right
+mbpp,Mbpp/803,True,True,both right
+mbpp,Mbpp/804,True,True,both right
+mbpp,Mbpp/806,False,False,both wrong
+mbpp,Mbpp/808,True,True,both right
+mbpp,Mbpp/82,True,True,both right
+mbpp,Mbpp/85,True,True,both right
