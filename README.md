@@ -10,7 +10,12 @@ LFM3-1.7B is a very strong small model, but it thinks by default, and that costs
 > Status:
 > - Baseline done ([v2, 1,200 answers](results/baseline_v2/README.md); first small run: [v1](results/baseline_v1/README.md)).
 > - Training data done ([2,069 verified direct answers](results/step2_data/README.md)).
-> - Next: LoRA fine-tune (`notebooks/Step3_LoRA_Finetune.ipynb`), then the full re-evaluation.
+> - First LoRA fine-tune done ([results/step3_lora](results/step3_lora/README.md)). On 103 held-out questions with thinking OFF:
+>   - hidden reasoning 11% → **0%**;
+>   - cut-off answers 15% → **3%**;
+>   - answers 39% shorter;
+>   - no loss on the answers we could check.
+> - Next: the full benchmark of the fine-tuned model (`notebooks/Step4_Instant_vs_Base.ipynb`), then Q4 GGUF.
 
 ## Baseline results (v2: 100 per benchmark, 1,200 answers)
 
@@ -41,6 +46,7 @@ notebooks/
   LFM3_Thinking_ON_vs_OFF.ipynb   Experiment 1: the full ON vs OFF study in one readable Kaggle notebook
   Step2_Training_Data.ipynb       Step 2: training data from the model's own verified answers (thinking removed)
   Step3_LoRA_Finetune.ipynb       Step 3: LoRA fine-tune on that data, before/after check, merged model
+  Step4_Instant_vs_Base.ipynb     Step 4: full benchmark of the fine-tuned model vs LFM3 thinking ON / OFF (same 600 questions)
   kaggle_baseline.ipynb           earlier vLLM-based version
 ```
 

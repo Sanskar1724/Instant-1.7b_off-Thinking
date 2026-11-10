@@ -15,6 +15,7 @@ results/*
 !results/baseline_v1/
 !results/baseline_v2/
 !results/step2_data/
+!results/step3_lora/
 *.zip
 
 # Notebooks: keep the generated notebook, ignore checkpoints

@@ -1,0 +1,48 @@
+{
+ "model": "LiquidAI/LFM3-1.7B",
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "target_modules": [
+   "q_proj",
+   "k_proj",
+   "v_proj",
+   "o_proj",
+   "in_proj",
+   "out_proj",
+   "w1",
+   "w2",
+   "w3"
+  ]
+ },
+ "epochs": 2,
+ "lr": 0.0001,
+ "warmup_steps": 8,
+ "tokens_per_batch": 8192,
+ "accum": 2,
+ "max_len": 3072,
+ "seed": 0,
+ "train_examples": 1966,
+ "val_examples": 103,
+ "val_loss_before": 0.39876852191739093,
+ "val_loss_best": 0.3513142868261825,
+ "check": {
+  "finetuned_off": {
+   "answers": 103.0,
+   "hidden_reasoning": 0.0,
+   "cut_off": 0.02912621359223301,
+   "mean_tokens": 207.76699029126215,
+   "median_tokens": 148.0,
+   "agrees_with_verified": 0.9230769230769231
+  },
+  "original_off": {
+   "answers": 190.0,
+   "hidden_reasoning": 0.12105263157894737,
+   "cut_off": 0.14736842105263157,
+   "mean_tokens": 349.09473684210525,
+   "median_tokens": 200.0,
+   "agrees_with_verified": 0.9213483146067416
+  }
+ }
+}

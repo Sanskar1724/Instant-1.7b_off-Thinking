@@ -1,0 +1,28 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] A new version of the following files was downloaded from https://huggingface.co/LiquidAI/LFM3-1.7B:
+- lfm3_conv.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+[transformers] A new version of the following files was downloaded from https://huggingface.co/LiquidAI/LFM3-1.7B:
+- modeling_lfm3.py
+- lfm3_conv.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+Loading weights:   0%|          | 0/286 [00:00<?, ?it/s]Loading weights:   0%|          | 1/286 [00:01<08:05,  1.70s/it]Loading weights:  59%|█████▊    | 168/286 [00:01<00:00, 129.62it/s]Loading weights:  93%|█████████▎| 265/286 [00:02<00:00, 133.06it/s]Loading weights: 100%|██████████| 286/286 [00:02<00:00, 109.01it/s]
+16:54:09 [GPU1] model loaded (original)
+16:55:04 [GPU1] 16/103 answers (55s for 16)
+Loading weights:   0%|          | 0/286 [00:00<?, ?it/s]Loading weights:   0%|          | 1/286 [00:00<03:54,  1.22it/s]Loading weights:  34%|███▎      | 96/286 [00:00<00:01, 138.95it/s]Loading weights:  51%|█████     | 146/286 [00:01<00:00, 167.55it/s]Loading weights:  64%|██████▍   | 184/286 [00:01<00:00, 162.58it/s]Loading weights:  74%|███████▍  | 213/286 [00:01<00:00, 165.53it/s]Loading weights:  83%|████████▎ | 238/286 [00:01<00:00, 171.02it/s]Loading weights:  91%|█████████▏| 261/286 [00:01<00:00, 166.07it/s]Loading weights: 100%|██████████| 286/286 [00:01<00:00, 146.86it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+16:55:54 [GPU1] model loaded (original)
+16:55:56 [GPU1] 32/103 answers (51s for 16)
+16:57:15 [GPU1] 48/103 answers (80s for 16)
+16:57:23 [GPU1] 16/87 answers (89s for 16)
+16:58:36 [GPU1] 64/103 answers (81s for 16)
+16:58:39 [GPU1] 32/87 answers (75s for 16)
+16:59:55 [GPU1] 80/103 answers (79s for 16)
+16:59:59 [GPU1] 48/87 answers (80s for 16)
+17:01:12 [GPU1] 96/103 answers (77s for 16)
+17:01:15 [GPU1] 64/87 answers (76s for 16)
+17:02:19 [GPU1] 103/103 answers (67s for 7)
+17:02:19 [GPU1] all done
+17:02:27 [GPU1] 80/87 answers (71s for 16)
+17:03:10 [GPU1] 87/87 answers (44s for 7)
+17:03:10 [GPU1] all done
