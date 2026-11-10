@@ -7,7 +7,10 @@ LFM3-1.7B is a very strong small model, but it thinks by default, and that costs
 1. **Measures it.** An honest thinking-ON vs thinking-OFF baseline on HumanEval+, MBPP+, LiveCodeBench v6, GSM8K, IFEval, IFBench and BFCL tool calling (accuracy, tokens, truncation, leaked thinking, speed).
 2. **Fixes it** (next). Fine-tunes the model on its own verified answers so it answers directly, with fewer tokens, and checks the result at Q4 GGUF too.
 
-> Status: baseline done ([v2, 1,200 answers](results/baseline_v2/README.md); first small run: [v1](results/baseline_v1/README.md)). Next: training data, then LoRA fine-tune.
+> Status:
+> - Baseline done ([v2, 1,200 answers](results/baseline_v2/README.md); first small run: [v1](results/baseline_v1/README.md)).
+> - Training data done ([2,069 verified direct answers](results/step2_data/README.md)).
+> - Next: LoRA fine-tune (`notebooks/Step3_LoRA_Finetune.ipynb`), then the full re-evaluation.
 
 ## Baseline results (v2: 100 per benchmark, 1,200 answers)
 
@@ -37,6 +40,7 @@ tests/            parsing unit tests + end-to-end runs with a mock model
 notebooks/
   LFM3_Thinking_ON_vs_OFF.ipynb   Experiment 1: the full ON vs OFF study in one readable Kaggle notebook
   Step2_Training_Data.ipynb       Step 2: training data from the model's own verified answers (thinking removed)
+  Step3_LoRA_Finetune.ipynb       Step 3: LoRA fine-tune on that data, before/after check, merged model
   kaggle_baseline.ipynb           earlier vLLM-based version
 ```
 

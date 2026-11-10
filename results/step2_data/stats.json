@@ -1,0 +1,55 @@
+{
+ "model": "LiquidAI/LFM3-1.7B",
+ "questions": 2575,
+ "train": 1966,
+ "val": 103,
+ "by_domain": {
+  "gsm8k": 666,
+  "if": 611,
+  "tools": 424,
+  "mbpp": 238,
+  "no_tool": 100,
+  "apps": 30
+ },
+ "by_source": {
+  "off_direct": 1595,
+  "thinking_on_final_answer": 255,
+  "off_after_hidden_reasoning": 219
+ },
+ "mean_target_tokens": 223.29386176897052,
+ "settings": {
+  "N_PER_DOMAIN": {
+   "mbpp": null,
+   "apps": 700,
+   "gsm8k": 700,
+   "if": 700,
+   "tools": 600,
+   "no_tool": 100
+  },
+  "TRIES_ON": 2,
+  "MAX_NEW_A": 2048,
+  "MAX_NEW_B": 4096,
+  "MAX_TARGET_TOKENS": 1536,
+  "SAMPLING": {
+   "general": {
+    "temperature": 0.1,
+    "top_k": 50,
+    "top_p": 1.0,
+    "repetition_penalty": 1.1
+   },
+   "diverse": {
+    "temperature": 0.6,
+    "top_k": 50,
+    "top_p": 0.95,
+    "repetition_penalty": 1.05
+   },
+   "math": {
+    "temperature": 1.0,
+    "top_k": 20,
+    "top_p": 0.95,
+    "repetition_penalty": 1.0
+   }
+  },
+  "SEED": 0
+ }
+}
