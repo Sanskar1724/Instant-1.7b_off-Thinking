@@ -19,7 +19,7 @@ LFM3-1.7B is a very strong small model, but it thinks by default, and that costs
 >   - **1.8x fewer tokens than thinking OFF** (3.3x fewer than ON);
 >   - cut-offs 2%;
 >   - **but about 4 points less accurate than thinking OFF** (65.6% vs 69.4%), mostly on code, where the hidden reasoning it removed was helping.
-> - Next: round 2 of the training data (more knowledge from thinking ON, short plans allowed where needed).
+> - Next: round 2 (more knowledge from thinking ON, short plans allowed where needed): Step2b → Step3b → Step4b notebooks.
 
 ## Baseline results (v2: 100 per benchmark, 1,200 answers)
 
@@ -52,6 +52,8 @@ notebooks/
   Step2b_Training_Data_Round2.ipynb  Step 2b: round-2 data (reuses round 1; short plans where needed; fewer easy examples)
   Step3_LoRA_Finetune.ipynb       Step 3: LoRA fine-tune on that data, before/after check, merged model
   Step4_Instant_vs_Base.ipynb     Step 4: full benchmark of the fine-tuned model vs LFM3 thinking ON / OFF (same 600 questions)
+  Step3b_LoRA_Round2.ipynb        Step 3b: same fine-tune on the round-2 data
+  Step4b_Instant_R2_vs_Base.ipynb Step 4b: full benchmark of the round-2 model, plus round 2 vs round 1
   kaggle_baseline.ipynb           earlier vLLM-based version
 ```
 
